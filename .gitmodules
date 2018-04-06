@@ -1,0 +1,3 @@
+[submodule "MessengerPrototype"]
+	path = MessengerPrototype
+	url = https://github.com/panoetic/MessengerPrototype
