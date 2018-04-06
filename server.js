@@ -1,11 +1,11 @@
 // *** main dependencies *** //
 let express   = require('express');
 let app       = express();
-let api       = require('./api');
+let api       = require('./api/server');
 let appPort   = normalizePort(process.env.PORT || 4200);
 
 // *** local vars *** //
-let public_path = `${__dirname}/web/dist`
+let public_path = `${__dirname}/MessengerPrototype/dist`
 let webapp_path = `${public_path}/index.html`
 let server = {};
 

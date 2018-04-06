@@ -59,7 +59,7 @@ if (process.env.NODE_ENV === 'development') {
   app.use('/api', commonRoutes);
 }
 else {
-  app.use('/api', commonRoutes);
+  app.use('/', commonRoutes);
 }
 
 // *** handle favicon request *** //
