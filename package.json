@@ -1,0 +1,15 @@
+{
+  "name": "raven-server",
+  "version": "0.1.0",
+  "description": "Project Raven",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pixxl",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/cli": "^1.6.8",
+    "express": "^4.16.3"
+  }
+}
