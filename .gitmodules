@@ -1,3 +1,3 @@
 [submodule "MessengerPrototype"]
 	path = MessengerPrototype
-	url = https://github.com/panoetic/MessengerPrototype
+	url = git@github.com:panoetic/MessengerPrototype.git

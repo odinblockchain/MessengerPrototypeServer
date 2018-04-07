@@ -2,13 +2,13 @@
 
 // *** main dependencies *** //
 let api     = require('../api');
-let debug   = require('debug')('_example:server');
+let debug   = require('debug')('api-server');
 let http    = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
-let port = normalizePort(process.env.PORT || '3000');
+let port = normalizePort(process.env.PORT || '4200');
 api.set('port', port);
 
 /**
@@ -81,5 +81,4 @@ function onListening() {
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   console.log('Listening on ' + bind);
-  console.log(`Debug Mode :: ${process.env.ODN_DEBUG}`);
 }

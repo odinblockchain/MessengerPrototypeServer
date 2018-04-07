@@ -1,26 +1,13 @@
 {
   "name": "raven-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An API layer for the Raven WebApp",
   "main": "bin/www",
   "scripts": {
-    "setup": "scripts/setup.js",
-    "setup-dev": "NODE_ENV=development scripts/setup.js",
-    "migrate": "scripts/migrate.js",
-    "cleanup": "scripts/cleanup.js",
     "start": "scripts/start.js",
-    "start-debug": "ODN_DEBUG=true scripts/start.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Manbearpixel/ObsidianXXL.git"
-  },
-  "author": "manbearpixel",
+  "author": "Pixxl",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Manbearpixel/ObsidianXXL/issues"
-  },
-  "homepage": "https://github.com/Manbearpixel/ObsidianXXL#readme",
   "dependencies": {
     "async": "^2.5.0",
     "body-parser": "^1.18.2",
