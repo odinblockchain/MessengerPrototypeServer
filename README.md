@@ -8,20 +8,21 @@ WIP - Development branch contains active work.
 
 ## Setup
 Ensure you are on the `development` branch for setup. `git checkout development`
-Run `npm install` to install primary dependencies.
+Run `npm run init` to install primary dependencies and initialize the MessengerPrototype submodule.
 
 Install `forever` which is a NodeJS process manager. This will run the MessengerPrototypeServer locally on the server in the background: `npm install -g forever`.
 
 ### MessengerPrototype
-The MessengerPrototype is a separate Git repo and as such will need to be setup separately.
+The MessengerPrototype is a separate Git repo and as such will need to be setup separately. This should have been accomplished through `npm run init` or `npm run init-prototype` but in case there was an issue you can set it up manually.
 
-First initialize the MessengerPrototype as a submodule:
+First initialize the MessengerPrototype as a submodule and install dependencies:
 ```
 cd MessengerPrototype
 git submodule update --init --recursive
+npm install
 ```
 
-Then switch to the `development` branch and initialize the dependencies:
+This will set the branch to the specified commit/tag that is associated to the MessengerPrototypeServer. Alternatively, you can checkout the specific working branch - in this case `development` - and install dependencies:
 ```
 git checkout development
 npm install
