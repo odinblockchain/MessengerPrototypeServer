@@ -19,13 +19,11 @@ First initialize the MessengerPrototype as a submodule and install dependencies:
 ```
 cd MessengerPrototype
 git submodule update --init --recursive
-npm install
 ```
 
-This will set the branch to the specified commit/tag that is associated to the MessengerPrototypeServer. Alternatively, you can checkout the specific working branch - in this case `development` - and install dependencies:
+This will set the branch to the specified commit/tag that is associated to the MessengerPrototypeServer. Alternatively, you can checkout the specific working branch - in this case `development`:
 ```
 git checkout development
-npm install
 ```
 
 ## Server

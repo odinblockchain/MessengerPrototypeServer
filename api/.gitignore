@@ -4,12 +4,20 @@
 /dist
 /tmp
 
+# db
+db/*
+
+# configs
+config/development.json
+config/production.json
+
 # dependencies
 /node_modules
 /bower_components
 
 # misc
 .DS_STORE
+!.gitkeep
 /.sass-cache
 /connect.lock
 /coverage/*
@@ -17,10 +25,3 @@
 npm-debug.log*
 yarn-error.log
 testem.log
-config/development.json
-config/production.json
-
-# ember-try
-.node_modules.ember-try/
-bower.json.ember-try
-package.json.ember-try
