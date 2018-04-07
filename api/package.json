@@ -1,10 +1,10 @@
 {
   "name": "raven-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An API layer for the Raven WebApp",
   "main": "bin/www",
   "scripts": {
-    "start": "scripts/start.js",
+    "start": "scripts/start.js"
   },
   "author": "Pixxl",
   "license": "MIT",
