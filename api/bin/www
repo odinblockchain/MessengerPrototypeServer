@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 
 // *** main dependencies *** //
-let api     = require('../api');
+let api     = require('../server');
 let debug   = require('debug')('api-server');
 let http    = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
-let port = normalizePort(process.env.PORT || '4200');
+let port = normalizePort(process.env.PORT || '4201');
 api.set('port', port);
 
 /**
